@@ -233,3 +233,25 @@
     align-items: center;
     gap: 7px;
 }
+
+
+/* .Bottom section */
+
+.bottom-section {
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 80px 40px;
+}
+
+.bottom-section h1 {
+    color: #001931;
+    font-size: 40px;
+}
+
+.bottom-text {
+    color: #627382;
+    line-height: 24px;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
