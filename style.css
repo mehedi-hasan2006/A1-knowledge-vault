@@ -7,7 +7,8 @@
 
 /* Common Class  */
 .container {
-    max-width: 1600px;
+    max-width: 1360px;
+    margin: 20px auto;
 }
 
 .btn {
@@ -137,3 +138,56 @@
 
 
 /* card section */
+.card-details {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.card-details h1 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.card-details p {
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+
+.card {
+    display: flex;
+    gap: 24px;
+}
+
+.card .card-content {
+    background-color: white;
+    border-radius: 8px;
+    padding: 70px 24px;
+    text-align: center;
+    box-shadow: 0px 10px 30px #c5c3c3;
+}
+
+.card .card-content .card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.card-title h2 {
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+.card-title p {
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
