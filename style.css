@@ -327,3 +327,56 @@ hr {
     font-size: 16px;
     line-height: 24px;
 }
+
+
+
+
+/* Responsive for mobile (576px) */
+@media screen and (max-width: 576px) {
+    header .navbar button{
+        display: none;
+    }
+
+    .navbar .nav-menu ul li a{
+        font-size: 14px;
+    }
+
+    .hero-content h1{
+        font-size: 48px;
+    }
+
+    .hero-content p{
+        padding: 0 20px;
+    }
+
+    .card{
+        flex-direction: column;
+        align-items: center;
+        max-width: 576px;
+        padding: 0 30px;
+    }
+
+    .solution-content{
+        flex-direction: column;
+    }
+
+    .solution-img img{
+       width: 100%;
+    }
+
+    .solution-details{
+        padding: 0 30px;
+    }
+    .solution-title .solution-details h1{
+        font-size: 48px;
+    }
+
+    .footer-content{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footer-details{
+        padding-right: 30px;
+    }
+}
