@@ -380,3 +380,63 @@ hr {
         padding-right: 30px;
     }
 }
+
+
+
+/* Responsive for 576px to 768px */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    header .navbar button{
+        display: none;
+    }
+
+    .hero-content h1{
+        font-size: 56px;
+        padding:  0 20px;
+    }
+
+    .hero-content p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-details p{
+        padding-left: 20px ;
+        padding-right: 20px;
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+        min-width: 576px;
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .card .card-content{
+        width: 500px;
+    }
+
+    .solution-content{
+        flex-direction: column;
+    }
+
+    .solution-img img{
+       width: 100%;
+    }
+
+    .solution-details{
+        padding: 0 30px;
+    }
+    .solution-title .solution-details h1{
+        font-size: 48px;
+    }
+
+    .footer-content{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footer-details{
+        padding-right: 30px;
+    }
+}
